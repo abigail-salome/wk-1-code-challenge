@@ -1,5 +1,5 @@
 
-/*this function determines an individual's NHIF contribution based on his/her gross salary*/
+// this function determines an individual's NHIF contribution based on his/her gross salary
 const calculateNHIF = (grossSalary) => {
     if (grossSalary >= 0 && grossSalary <= 5999) {
       return 150;
@@ -40,7 +40,7 @@ const calculateNHIF = (grossSalary) => {
     }
   };
   
-  /*PAYE function*/
+  // PAYE function
   function calculatePAYE(monthlyPay) {
     const personalRelief = 2400;
     const ownerOccupierInterest = 25000;
@@ -87,7 +87,7 @@ const calculateNHIF = (grossSalary) => {
     return annualTax / 12; // Return the monthly tax
   }
   
-  /*Calculates NSSF*/
+ // Calculates NSSF
   const calculateNSSF = (monthlySalary) => {
     const tier1Limit = 7000;
     const tier2Limit = 36000;
@@ -106,7 +106,7 @@ const calculateNHIF = (grossSalary) => {
     return totalEmployeeContribution + totalEmployerContribution;
   };
   
-  /*function that calculates net salary*/
+  // function that calculates net salary
   const calculateNetSalary = (basicSalary, benefits = 0) => {
     const grossSalary = basicSalary + benefits;
     const nssfDeduction = calculateNSSF(grossSalary);
