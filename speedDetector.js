@@ -35,4 +35,4 @@ if (speed <= 70) {
 }
 }
 // Testing the function with a speed of 80
-detector(80);
+console.log(detector(150));
