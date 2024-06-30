@@ -1,6 +1,6 @@
 ## Wk-1-Code-Challenge
 #### Student grade generator(toy problem)
-* How It Works
+#### How It Works
 The user is asked to enter the marks of a student.
 The program validates the input to ensure it is a number between 0 and 100.
 Based on the input, the program determines the grade using the following scale:
