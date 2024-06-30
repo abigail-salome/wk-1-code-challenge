@@ -19,17 +19,15 @@ function determineGrade(marks) {
   }
 }
 
-
-  
-
-userInput.question("enter student marks: ", function(input) {
-    const marks = parseInt(input)
-
-    if (isNaN(marks) || marks > 100 || marks < 0) {
-        console.log("you entered an invalid mark")
-    } else {
-        const grade = determineGrade(marks)
-        console.log(`the grade is ${grade}`)
-    }
-    userInput.close()
-})
+// Prompt the user to enter student marks
+userInput.question("enter student marks: ", function (input) {
+  const marks = parseInt(input); //  // Parse the input as an integer
+  // Check if the input is valid (a number between 0 and 100
+  if (isNaN(marks) || marks > 100 || marks < 0) {
+    console.log("you entered an invalid mark"); // Inform the user of invalid input
+  } else {
+    const grade = determineGrade(marks); // Determine the grade based on marks
+    console.log(`the grade is ${grade}`); // Output the grade
+  }
+  userInput.close(); // Close the input interface
+});
