@@ -22,9 +22,6 @@ If the speed is:
 * Above 70 km/h, demerit points are calculated for every 5 km/h over the limit.
 * More than 130 km/h: returns "License suspended."
 
-#### Hosted URL
-https://github.com/abigail-salome/wk-1-code-challenge
-
 #### net Salary Calculator
 This JavaScript program calculates an individual's net salary based on gross salary and benefits, considering deductions for NHIF, PAYE, and NSSF.
 
@@ -38,6 +35,9 @@ This JavaScript program calculates an individual's net salary based on gross sal
 1. It assumes the employee does not have a loan and therefore does not implement the infringement benefit tax
 2. For NSSF calculations, the program assumes a pensionable pay of atleast ksh. 7,000
 3. It assumes that an individual is not disabled
+
+#### Hosted URL
+https://github.com/abigail-salome/wk-1-code-challenge
 
 
 
